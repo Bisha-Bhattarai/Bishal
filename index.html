@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full Stack Development ePortfolio Terminal - Created by Bishal Bhattarai">
+    <title>Full Stack Development - Academic ePortfolio Terminal</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Linked External Custom Stylesheet Component -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="global-header sticky-top py-3">
+        <div class="container-fluid d-flex flex-column flex-xl-row justify-content-between align-items-xl-center gap-3">
+            <div class="d-flex flex-column flex-sm-row align-items-sm-center gap-2 gap-sm-3">
+                <h1 class="h3 text-uppercase font-mono m-0 tracking-wider text-light fw-bold">Full Stack Development</h1>
+                <div>
+                    <button type="button" id="btn-back-to-home" class="home-link-btn" aria-label="Return to homepage module entry point">
+                        <span class="btn-arrow">←</span> Bishal Bhattarai
+                    </button>
+                </div>
+            </div>
+            
+            <nav class="portfolio-navigation" aria-label="Core Engineering Matrix Navigation">
+                <div class="nav nav-pills d-flex flex-row flex-nowrap overflow-x-auto gap-1 gap-sm-2 pb-2 pb-xl-0" id="v-pills-tab" role="tablist">
+                    <button class="nav-link active" id="pill-architecture-tab" data-bs-toggle="tab" data-bs-target="#pill-architecture" type="button" role="tab" aria-selected="true">1) FULLSTACK</button>
+                    <button class="nav-link" id="pill-html-tab" data-bs-toggle="tab" data-bs-target="#pill-html" type="button" role="tab" aria-selected="false">2) HTML</button>
+                    <button class="nav-link" id="pill-css-tab" data-bs-toggle="tab" data-bs-target="#pill-css" type="button" role="tab" aria-selected="false">3) CSS</button>
+                    <button class="nav-link" id="pill-bootstrap-tab" data-bs-toggle="tab" data-bs-target="#pill-bootstrap" type="button" role="tab" aria-selected="false">4) BOOTSTRAP</button>
+                    <button class="nav-link" id="pill-javascript-tab" data-bs-toggle="tab" data-bs-target="#pill-javascript" type="button" role="tab" aria-selected="false">5) JAVASCRIPT</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container-fluid my-4 px-3 px-md-4">
+        <div class="row g-4">
+            
+            <div class="col-12 col-xl-9">
+                <div class="tab-content" id="v-pills-tabContent">
+                    
+                    <!-- TAB 1: FULLSTACK ARCHITECTURE -->
+                    <section class="tab-pane fade show active" id="pill-architecture" role="tabpanel" aria-labelledby="pill-architecture-tab">
+                        <div class="dashboard-panel">
+                            <header class="border-bottom border-secondary border-opacity-30 pb-2 mb-3">
+                                <h2 class="h4 text-uppercase font-mono text-neon-cyan m-0">01 // Architectural Breakdown: What is Full Stack Development?</h2>
+                                <p class="text-muted small m-0">Deep dive evaluation into multi-tier engineering pipelines and transactional network boundaries.</p>
+                            </header>
+
+                            <!-- Tab 1 Q&A Accordion - Placed at top -->
+                            <section class="qa-matrix" aria-label="Full Stack Q&A Matrix">
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q1: What is Three-Tier Software Architecture Alignment? (Presentation, Logic & Persistence Tiers)</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Modern enterprise engineering isolates application scope into three separate layers to protect structural balance and allow individual tiers to scale independently:
+                                            <ul class="mt-2 ps-3 small text-muted">
+                                                <li class="mb-2"><strong class="text-light">The Presentation Tier (Front-End Blueprint):</strong> Compiles structural layouts directly inside user runtime environments. Built with HTML5 semantic nodes, CSS3 cascading layout matrices, and JavaScript events, it transforms abstract source code definitions into visible, clickable user interfaces.</li>
+                                                <li class="mb-2"><strong class="text-light">The Application Logic Tier (Back-End Core Engine):</strong> Serves as the central security and calculation platform. Implemented inside managed environments like .NET C# APIs or Node.js Express controllers, it evaluates security authorization keys, executes calculation routines, and filters requests to protect internal infrastructure.</li>
+                                                <li class="mb-0"><strong class="text-light">The Data Persistence Tier (Storage Layer Database):</strong> Manages structured information records safely. Uses strict column relationships (Relational systems like SQL Server) or object-oriented tree documentation maps (Non-Relational setups like MongoDB) to track platform states across individual user sessions.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q2: What exactly does the term "Full Stack" mean?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            "Full Stack" refers to the complete collection of software technologies used to compile, execute, and persist web applications. It spans the user-facing interface (front-end), the remote calculation and routing servers (back-end), and the database repository (data persistence). A Full Stack engineer is skilled across all three areas, understanding how client inputs convert into network packages and data storage mutations.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q3: How do Front-End and Back-End boundaries differ in execution?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            The Front-End (Presentation) runs entirely inside the user's web browser environment (client runtime). It executes layout structures (HTML), custom visuals (CSS), and user interactions (JS). The Back-End (Application/Data Tiers) runs on remote managed servers. It handles calculations, data filtering, and security checks (such as verifying password clearances or REST authorization signatures) which are too sensitive to execute inside user-accessible browser environments.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q4: Can you describe the steps of a typical HTTP Request-Response Lifecycle?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            It follows these steps:
+                                            <ol class="list-unstyled ps-3 mt-1">
+                                                <li>1. <strong>Dispatch:</strong> The client triggers a browser request (e.g. `GET /api/reactor`) packing request headers and query parameters.</li>
+                                                <li>2. <strong>Routing:</strong> The server intercepts the HTTP stream, checks CORS authorization, and parses the payload.</li>
+                                                <li>3. <strong>Database Query:</strong> The server routes queries to the database layer to find matching rows.</li>
+                                                <li>4. <strong>Return Payload:</strong> The database returns structured rows, which the server serializes into a JSON response.</li>
+                                                <li>5. <strong>DOM Mutation:</strong> The client catches the response and updates the UI layout dynamically.</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q5: Why is database persistence crucial in modern web applications?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            HTTP is a stateless protocol; the browser retains no memory of past requests on its own. Database persistence (using SQL tables or NoSQL document trees) allows platforms to record user profiles, transactional states, system alerts, and telemetry logs safely. This ensures crucial data is not lost when users reload their tabs, close the browser, or reboot their devices.
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <div class="row g-3 mb-4">
+                                <div class="col-12 col-md-4">
+                                    <div class="metric-card h-100">
+                                        <div class="font-mono text-neon-cyan small mb-1">[TIER_01]</div>
+                                        <h4 class="h6 text-uppercase text-light mb-2">Client Viewport Interface</h4>
+                                        <p class="small text-muted m-0">Monitors user interactions and parses returned network objects down into smooth DOM transformations.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="metric-card h-100">
+                                        <div class="font-mono text-neon-purple small mb-1">[TIER_02]</div>
+                                        <h4 class="h6 text-uppercase text-light mb-2">Business Routing Services</h4>
+                                        <p class="small text-muted m-0">Validates incoming payload metrics against access models before routing calls to storage partitions.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4">
+                                    <div class="metric-card h-100">
+                                        <div class="font-mono text-neon-green small mb-1">[TIER_03]</div>
+                                        <h4 class="h6 text-uppercase text-light mb-2">Persistence Registry</h4>
+                                        <p class="small text-muted m-0">Handles database read/write queries while protecting data types using indexing schemas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <article class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <header class="mb-3">
+                                    <h4 class="h6 font-mono text-uppercase text-light m-0">Asynchronous Network Loop Infrastructure Simulator</h4>
+                                    <p class="text-muted small m-0">Click the action button below to visualize data tracking routes across network nodes in real time.</p>
+                                </header>
+                                
+                                <div class="row align-items-center mb-4 position-relative g-2 py-2">
+                                    <div class="col-3">
+                                        <div id="node-client" class="telemetry-node">💻 CLIENT INTERFACE</div>
+                                    </div>
+                                    <div class="col-1 position-relative">
+                                        <div class="network-track"><div id="telemetry-packet" class="telemetry-packet"></div></div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div id="node-server" class="telemetry-node">⚙️ BACKEND API GATEWAY</div>
+                                    </div>
+                                    <div class="col-1">
+                                        <div class="network-track"></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div id="node-db" class="telemetry-node">🗄️ PERSISTENCE DATABASE</div>
+                                    </div>
+                                </div>
+
+                                <div class="d-flex gap-2 mb-3">
+                                    <button id="btn-trigger-request" class="btn btn-sm btn-info font-mono text-uppercase px-3">INITIATE REQUEST CYCLE</button>
+                                    <button id="btn-reset-request" class="btn btn-sm btn-outline-secondary font-mono text-uppercase text-white px-3">RESET STATE</button>
+                                </div>
+
+                                <div class="p-3 bg-darker rounded border border-secondary border-opacity-60 font-mono small mb-3">
+                                    <span class="text-muted d-block border-bottom border-secondary border-opacity-40 pb-1 mb-2">SYSTEM TERMINAL TELEMETRY READOUTS:</span>
+                                    <div id="terminal-step" class="text-neon-purple fw-bold mb-1">[STEP 00] // NETWORK IDLE</div>
+                                    <code id="terminal-output" class="text-neon-green small">Platform tracking system steady. Awaiting active transaction request loop authorization.</code>
+                                </div>
+
+                                <div class="mt-3">
+                                    <h5 class="h6 font-mono text-uppercase text-light mb-2">Core Component Competency Checklist</h5>
+                                    <div class="row g-2 font-mono small">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="chk-fe" checked disabled>
+                                                <label class="form-check-label text-muted" for="chk-fe">Presentation Tier: DOM Events & Web APIs</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="chk-be" checked disabled>
+                                                <label class="form-check-label text-muted" for="chk-be">Application Tier: REST Protocols & Validation</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="chk-db" checked disabled>
+                                                <label class="form-check-label text-muted" for="chk-db">Persistence Tier: Relations & Document Maps</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="chk-sec" checked disabled>
+                                                <label class="form-check-label text-muted" for="chk-sec">Cross-Origin CORS & Session Identity</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    
+                    <!-- TAB 2: HTML SEMANTIC STRUCTURE -->
+                    <section class="tab-pane fade" id="pill-html" role="tabpanel" aria-labelledby="pill-html-tab">
+                        <div class="dashboard-panel">
+                            <header class="border-bottom border-secondary border-opacity-30 pb-2 mb-3">
+                                <h2 class="h4 text-uppercase font-mono text-neon-cyan m-0">02 // HTML5 Semantic Structure & Compilation Layout Trees</h2>
+                                <p class="text-muted small m-0">Ditching uninformative divider blocks to construct accessible, crawlable document landscapes.</p>
+                            </header>
+
+                            <!-- Tab 2 Q&A Accordion - Placed at top -->
+                            <section class="qa-matrix" aria-label="HTML Q&A Matrix">
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q1: What are HTML5 Semantic Landmark Tags, and how do they differ from generic div blocks?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            HyperText Markup Language version 5 (HTML5) shifts structural web assembly away from generic visual divisions toward contextual semantics. Historically, projects relied heavily on non-semantic <code>&lt;div&gt;</code> blocks to build layout sections, which left documents empty of structural context. Modern accessibility standards replace these generic tags with specific semantic alternatives:
+                                            <ul class="mt-2 ps-3 small text-muted">
+                                                <li class="mb-1"><code class="text-light">&lt;header&gt; / &lt;footer&gt;</code>: Isolate branding components and metadata summaries safely from body contents.</li>
+                                                <li class="mb-1"><code class="text-light">&lt;nav&gt;</code>: Explicitly maps navigation systems so assistive screen readers can scan them accurately.</li>
+                                                <li class="mb-1"><code class="text-light">&lt;main&gt; / &lt;section&gt;</code>: Groups the central, exclusive interactive features of individual document layouts together.</li>
+                                                <li class="mb-0"><code class="text-light">&lt;article&gt; / &lt;aside&gt;</code>: Separates independent content listings and secondary telemetry panels cleanly.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q2: Why are HTML5 structural landmark elements vital for web accessibility (WCAG 2.1)?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Landmark elements like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> allow assistive screen readers to map a web document. Accessibility tools use these structural landmarks to build the page's "accessibility tree". Users can skip repetitive blocks (like menus) and jump straight to content sections, fulfilling WCAG guidelines without custom ARIA styles.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q3: How do semantic elements improve Search Engine Optimization (SEO)?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Search engine crawlers parse the semantic HTML tree to assign indexing weight. Keywords located inside headers (<code>&lt;h1&gt;-&lt;h6&gt;</code>), main contents (<code>&lt;main&gt;</code>), or individual article nodes (<code>&lt;article&gt;</code>) are weighted significantly higher by search ranking algorithms than keywords wrapped in deep, generic nested layers of unsemantic <code>&lt;div&gt;</code> containers.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q4: What is the accessibility link between HTML &lt;label&gt; and &lt;input&gt; tags?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            An <code>&lt;input&gt;</code> element must be explicitly linked to a <code>&lt;label&gt;</code> by matching the label's <code>for</code> attribute with the input's <code>id</code> attribute. This link ensures that screen readers read the correct label text out loud when the input field gains focus. It also expands the interactive touch area, letting users click the label text to focus the field.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q5: Explain the difference between block-level and inline HTML elements.</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Block-level elements (e.g. <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;section&gt;</code>) always start on a new line and expand horizontally to occupy the full width of their parent container. Inline elements (e.g. <code>&lt;span&gt;</code>, <code>&lt;strong&gt;</code>, <code>&lt;code&gt;</code>) do not start on a new line; they occupy only the horizontal width of their content, wrapping along with the adjacent text layout.
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-3">Functional Document Semantic Structural Wireframe Tree</h4>
+                                
+                                <div class="d-flex flex-column gap-2 font-mono small text-center text-dark fw-bold mb-3">
+                                    <div class="p-2 bg-info rounded btn-html-inspector" data-desc="&lt;header&gt; : Encloses global page title coordinates, core systems branding, and primary user status panels.">HEADER SECTOR LANDMARK</div>
+                                    <div class="p-2 bg-warning rounded btn-html-inspector" data-desc="&lt;nav&gt; : Declares structural arrays reserved for core application navigation links to optimize reader accessibility mapping loops.">NAV FUNCTIONAL BLOCK</div>
+                                    <div class="row g-2">
+                                        <div class="col-8">
+                                            <div class="p-3 bg-light rounded d-flex flex-column gap-2 btn-html-inspector" data-desc="&lt;main&gt; : Isolate the exclusive, primary functional content matrices of this specific document view layer.">
+                                                MAIN DOCUMENT FIELD
+                                                <div class="p-2 bg-secondary text-white rounded btn-html-inspector" data-desc="&lt;section&gt; : Groups linked component clusters together into distinct feature matrices on the dashboard space.">SECTION CONTAINER</div>
+                                                <div class="p-2 bg-success text-white rounded btn-html-inspector" data-desc="&lt;article&gt; : Encapsulates self-contained, independent historical logging streams or content entries.">ARTICLE INDEPENDENT DATA NODE</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="p-5 bg-danger text-white rounded h-100 d-flex align-items-center justify-content-center btn-html-inspector" data-desc="&lt;aside&gt; : Contains secondary reference telemetry metrics or ancillary alerts separated safely from primary data panels.">ASIDE TELEMETRY LOGS</div>
+                                        </div>
+                                    </div>
+                                    <div class="p-2 bg-dark text-white border border-secondary rounded btn-html-inspector" data-desc="&lt;footer&gt; : Houses operational metadata arrays, corporate copyright registries, data usage policies, and structural signature elements.">FOOTER SUMMARY BOUNDARY</div>
+                                </div>
+
+                                <div class="p-3 bg-darker rounded border border-secondary border-opacity-60 text-center">
+                                    <strong class="small font-mono text-muted d-block mb-1">INSPECTOR RADAR METADATA FEEDBACK OUT:</strong>
+                                    <span id="html-readout" class="small font-mono text-neon-cyan fw-bold">Awaiting active node hover inspection trace...</span>
+                                </div>
+                            </div>
+
+                            <!-- HTML Forms Mastery Section -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-3">HTML5 Semantic Tag Configurator Form</h4>
+                                <p class="text-muted small mb-3">Demonstrates a fully formatted HTML form mapping nested structural input classes to test tag compliance coordinates.</p>
+                                
+                                <form id="html-tag-registry-form" class="d-flex flex-column gap-3">
+                                    <fieldset class="border border-secondary border-opacity-40 p-3 rounded">
+                                        <legend class="float-none w-auto h6 text-neon-purple font-mono px-2">STRUCTURAL ACCESSIBILITY FORM CONFIGURATOR</legend>
+                                        
+                                        <div class="row g-3">
+                                            <div class="col-12 col-md-6">
+                                                <label for="reg-tag-name" class="form-label text-muted font-mono small mb-1">HTML Tag Designation:</label>
+                                                <input type="text" id="reg-tag-name" class="form-control form-control-dark" placeholder="e.g. &lt;main&gt;, &lt;footer&gt;" required>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label for="reg-developer-email" class="form-label text-muted font-mono small mb-1">Developer Credentials Email:</label>
+                                                <input type="email" id="reg-developer-email" class="form-control form-control-dark" placeholder="developer@portfolio.io" required>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label for="reg-tag-type" class="form-label text-muted font-mono small mb-1">Structural Node Category:</label>
+                                                <select id="reg-tag-type" class="form-select form-select-sm bg-darker border-secondary border-opacity-60 text-light font-mono text-white py-2" required>
+                                                    <option value="" disabled selected>Select Category</option>
+                                                    <option value="Semantic Landmark">Semantic Landmark (&lt;header&gt;, &lt;nav&gt;)</option>
+                                                    <option value="Interactive Control">Interactive Control (&lt;button&gt;, &lt;input&gt;)</option>
+                                                    <option value="Multimedia Node">Multimedia Node (&lt;audio&gt;, &lt;video&gt;)</option>
+                                                    <option value="Inline Typography">Inline Typography (&lt;mark&gt;, &lt;code&gt;)</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label class="form-label text-muted font-mono small mb-1">WCAG Compliance Target:</label>
+                                                <div class="d-flex gap-3 pt-1">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="wcag-compliance" id="wcag-a" value="Level A" checked>
+                                                        <label class="form-check-label font-mono small text-light" for="wcag-a">Level A</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="wcag-compliance" id="wcag-aa" value="Level AA">
+                                                        <label class="form-check-label font-mono small text-light" for="wcag-aa">Level AA</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="radio" name="wcag-compliance" id="wcag-aaa" value="Level AAA">
+                                                        <label class="form-check-label font-mono small text-light" for="wcag-aaa">Level AAA</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="reg-tag-purpose" class="form-label text-muted font-mono small mb-1">Purpose Description Detail:</label>
+                                                <textarea id="reg-tag-purpose" rows="2" class="form-control form-control-dark" placeholder="Specify accessibility benefit, search engine crawling implications, etc." required></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="reg-confirm-aria" required>
+                                                    <label class="form-check-label font-mono small text-muted" for="reg-confirm-aria">
+                                                        Verify this element satisfies WCAG 2.1 Landmark checks.
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="d-flex gap-2">
+                                        <button type="submit" class="btn btn-sm btn-info text-uppercase font-mono px-3">REGISTER NODE</button>
+                                        <button type="reset" class="btn btn-sm btn-outline-secondary text-uppercase font-mono text-white px-3">RESET FORM</button>
+                                    </div>
+                                </form>
+                                <div id="form-feedback-terminal" class="mt-3 p-3 bg-darker rounded border border-secondary border-opacity-60 font-mono small" style="display: none;">
+                                    <span class="text-muted d-block border-bottom border-secondary border-opacity-40 pb-1 mb-2">TAG REGISTRY TRANSACTION READOUT:</span>
+                                    <code id="form-feedback-text" class="text-neon-green small"></code>
+                                </div>
+                            </div>
+
+                            <!-- Multimedia Showcase Section -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-3">Academic HTML5 Multimedia Demonstrator</h4>
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-6">
+                                        <div class="media-controller-box h-100 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <span class="text-muted font-mono small d-block mb-1">&lt;audio&gt; Node Control Panel</span>
+                                                <p class="small text-muted">Hosts custom voice registries or alarm loops inside the document framework.</p>
+                                            </div>
+                                            <audio controls class="w-100 mt-2 bg-dark rounded">
+                                                <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                                                Your browser does not support the audio playback.
+                                            </audio>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="media-controller-box h-100 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <span class="text-muted font-mono small d-block mb-1">&lt;video&gt; Render Target Panel</span>
+                                                <p class="small text-muted">Displays operational training animations or structural walkthrough clips.</p>
+                                            </div>
+                                            <video controls class="w-100 mt-2 rounded border border-secondary" style="max-height: 140px;">
+                                                <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                                                Your browser does not support video playback.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Formatting Tags Registry -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-3">Inline Typography & Formatting Sandbox</h4>
+                                <div class="p-3 bg-darker rounded border border-secondary border-opacity-60 text-muted small">
+                                    <p>We leverage <strong class="text-light">strong tags</strong> for key emphasis, <em class="text-light">em tags</em> to indicate stress, and <mark class="bg-warning text-dark px-1 rounded">mark tags</mark> to highlight critical code paths.</p>
+                                    <p class="m-0">System reference quotes are loaded in blockquotes:</p>
+                                    <blockquote class="border-start border-3 border-info ps-3 my-2 font-serif text-light italic">
+                                        "Accessibility is not a feature; it is the foundation of structural web construction."
+                                    </blockquote>
+                                    <p class="m-0">Telemetry timing registries use the <time class="text-neon-cyan" datetime="2026-06-01">time tag</time>, and abbreviations use the <abbr class="text-neon-purple" title="Web Content Accessibility Guidelines">WCAG</abbr> pattern.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- TAB 3: CSS STYLING ENGINE -->
+                    <section class="tab-pane fade" id="pill-css" role="tabpanel" aria-labelledby="pill-css-tab">
+                        <div class="dashboard-panel">
+                            <header class="border-bottom border-secondary border-opacity-30 pb-2 mb-3">
+                                <h2 class="h4 text-uppercase font-mono text-neon-cyan m-0">03 // CSS3 Sizing Calculators & Structural Layout Control Engines</h2>
+                                <p class="text-muted small m-0">Configuring layout boundaries through direct manipulation of the four-layer spatial box model matrix.</p>
+                            </header>
+
+                            <!-- Tab 3 Q&A Accordion - Placed at top -->
+                            <section class="qa-matrix" aria-label="CSS Q&A Matrix">
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q1: How does the CSS Box Model calculate element sizing mathematically? (content-box vs border-box)</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Every item rendered on a front-end interface is handled as a nested rectangular layout container built of four distinct zones: <strong>Content core</strong>, <strong>Internal Padding boundaries</strong>, <strong>Border structural profiles</strong>, and <strong>Outer Margin spacing fields</strong>. How these dimensions add together depends entirely on the layout's <code>box-sizing</code> configuration rule:
+                                            <ul class="mt-2 ps-3 small text-muted">
+                                                <li class="mb-2"><strong class="text-light">`content-box` (The Legacy Default System):</strong> The browser computes final element sizing by adding custom padding and border widths *outside* your base width rules. (Calculation Equation: $Total Width = assigned Width + 2 \times Padding + 2 \times Border$). This often causes container elements to overflow and break column alignments unpredictably.</li>
+                                                <li class="mb-0"><strong class="text-light">`border-box` (The Modern Production Reset):</strong> Applying a global layout override reset ($* \{ box-sizing: border-box; \}$) forces the browser to calculate padding allocations and border widths *inside* your defined width boundaries. This keeps measurements clean and stable, preventing broken responsive designs.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q2: What is the core layout difference between Flexbox and CSS Grid?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            <strong>Flexbox</strong> is a one-dimensional layout model. It distributes items along a single axis (either horizontally as a row OR vertically as a column), which is perfect for component menus. <strong>CSS Grid</strong> is a two-dimensional layout model, aligning elements in both columns and rows simultaneously. Grid is best suited for complex, macro-level page grids.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q3: What are CSS Custom Properties (Variables), and why are they used?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            CSS variables are custom styling tokens declared using the <code>--variable-name</code> syntax and referenced via <code>var(--variable-name)</code>. They allow developers to centralize styling values (like fonts, colors, and layout borders). This simplifies UI design adjustments, enables dark/light theme shifts, and allows JavaScript to change stylesheet styles dynamically.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q4: How does a mobile-first responsive layout design workflow operate?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Mobile-first layout design writes base styling rules targeting the smallest viewport dimensions (mobile screens) first, without media query tags. Complex multi-column styles, margins, and borders are then progressively added inside <code>@media (min-width: ...)</code> rules for larger screen viewports. This ensures mobile devices load layouts with minimal overhead.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q5: What are CSS Repaints and Reflows, and how do they impact performance?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            A **Reflow** (Layout) occurs when changes affect element dimensions or page position (e.g. changing <code>width</code> or <code>padding</code>), forcing the browser to recalculate the layout tree. A **Repaint** occurs when style updates do not affect layout sizing (e.g. changing <code>color</code> or <code>box-shadow</code>). Minimizing actions that trigger reflows improves page rendering performance.
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- CSS Custom Properties Theme Editor -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 text-uppercase font-mono text-light mb-3">Interactive Theme Designer (CSS Variables Sandbox)</h4>
+                                <p class="text-muted small mb-3">Adjust color pickers to modify native CSS custom variables globally inside the browser scope.</p>
+                                <div class="row g-2">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="color-picker-group">
+                                            <span class="font-mono text-muted small">Accent Cyan:</span>
+                                            <input type="color" id="pick-cyan" class="color-picker-input" value="#00f3ff">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="color-picker-group">
+                                            <span class="font-mono text-muted small">Accent Purple:</span>
+                                            <input type="color" id="pick-purple" class="color-picker-input" value="#9d4edd">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="color-picker-group">
+                                            <span class="font-mono text-muted small">Glow Green:</span>
+                                            <input type="color" id="pick-green" class="color-picker-input" value="#00ff87">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="color-picker-group">
+                                            <span class="font-mono text-muted small">Alert Red:</span>
+                                            <input type="color" id="pick-red" class="color-picker-input" value="#ff3366">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="color-picker-group">
+                                            <span class="font-mono text-muted small">Body Background:</span>
+                                            <input type="color" id="pick-bg" class="color-picker-input" value="#030712">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row g-4 mb-4">
+                                <div class="col-12 col-md-5">
+                                    <div class="card bg-dark border-secondary border-opacity-40 p-4 h-100 d-flex flex-column gap-3">
+                                        <h4 class="h6 text-uppercase font-mono text-light m-0 border-bottom border-secondary border-opacity-30 pb-2">Layout Dimension Adjustments</h4>
+                                        
+                                        <div>
+                                            <label for="pad-slider" class="form-label font-mono text-muted small mb-1">Padding Inset Width: <span id="lbl-padding" class="text-neon-cyan fw-bold">24px</span></label>
+                                            <input type="range" class="form-range" id="pad-slider" min="0" max="50" value="24">
+                                        </div>
+                                        <div>
+                                            <label for="mar-slider" class="form-label font-mono text-muted small mb-1">Outer Margin Separation: <span id="lbl-margin" class="text-neon-cyan fw-bold">24px</span></label>
+                                            <input type="range" class="form-range" id="mar-slider" min="0" max="50" value="24">
+                                        </div>
+                                        <div>
+                                            <label for="bor-slider" class="form-label font-mono text-muted small mb-1">Border Line Thickness: <span id="lbl-border" class="text-neon-cyan fw-bold">2px</span></label>
+                                            <input type="range" class="form-range" id="bor-slider" min="0" max="12" value="2">
+                                        </div>
+                                        <div>
+                                            <label for="boxsizing-select" class="form-label font-mono text-muted small mb-1">box-sizing Equation Paradigm:</label>
+                                            <select class="form-select form-select-sm bg-darker border-secondary border-opacity-60 text-light font-mono text-white py-2" id="boxsizing-select">
+                                                <option value="border-box" selected>border-box (Standard Engine Reset)</option>
+                                                <option value="content-box">content-box (Legacy Engine Calculations)</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-7">
+                                    <div class="card bg-dark border-secondary border-opacity-40 p-4 h-100 text-center justify-content-center">
+                                        <h4 class="h6 text-uppercase font-mono text-light mb-3">Live Sizing Engine Renderer Output</h4>
+                                        
+                                        <div class="bg-darker rounded p-3 d-flex align-items-center justify-content-center h-100">
+                                            <div id="element-margin" class="box-model-visualizer w-100">
+                                                <div id="element-border" class="visual-border">
+                                                    <div id="element-padding" class="visual-padding">
+                                                        <div class="visual-content font-mono small rounded-1">
+                                                            CORE BOUNDED CONTENT
+                                                            <span id="lbl-computed-width" class="d-block small text-muted font-mono mt-2 fw-normal">Total Computed Footprint: 100%</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Flexbox vs Grid Interactive Playground -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-2">CSS Layout Alignment Matrix Sandbox</h4>
+                                <p class="text-muted small mb-3">Toggle between a one-dimensional Flexbox layout and a two-dimensional CSS Grid layout model.</p>
+                                
+                                <div class="d-flex gap-2 mb-3">
+                                    <button type="button" id="btn-set-flex" class="btn btn-sm btn-outline-info active font-mono">FLEXBOX MODE</button>
+                                    <button type="button" id="btn-set-grid" class="btn btn-sm btn-outline-info font-mono">CSS GRID MODE</button>
+                                </div>
+
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-4">
+                                        <div id="flexbox-controls" class="p-3 bg-darker rounded border border-secondary h-100">
+                                            <span class="text-muted small font-mono d-block mb-2">Flexbox Properties:</span>
+                                            <div class="mb-2">
+                                                <label for="sel-flex-dir" class="form-label small text-muted">flex-direction:</label>
+                                                <select id="sel-flex-dir" class="form-select form-select-sm bg-dark text-light border-secondary">
+                                                    <option value="row" selected>row</option>
+                                                    <option value="row-reverse">row-reverse</option>
+                                                    <option value="column">column</option>
+                                                </select>
+                                            </div>
+                                            <div>
+                                                <label for="sel-flex-justify" class="form-label small text-muted">justify-content:</label>
+                                                <select id="sel-flex-justify" class="form-select form-select-sm bg-dark text-light border-secondary">
+                                                    <option value="flex-start" selected>flex-start</option>
+                                                    <option value="center">center</option>
+                                                    <option value="space-between">space-between</option>
+                                                    <option value="space-around">space-around</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div id="grid-controls" class="p-3 bg-darker rounded border border-secondary h-100 d-none">
+                                            <span class="text-muted small font-mono d-block mb-2">Grid Template Structure:</span>
+                                            <div class="mb-2">
+                                                <label for="sel-grid-cols" class="form-label small text-muted">Columns count:</label>
+                                                <select id="sel-grid-cols" class="form-select form-select-sm bg-dark text-light border-secondary">
+                                                    <option value="3" selected>repeat(3, 1fr)</option>
+                                                    <option value="2">repeat(2, 1fr)</option>
+                                                    <option value="4">repeat(4, 1fr)</option>
+                                                </select>
+                                            </div>
+                                            <div>
+                                                <label for="sel-grid-rows" class="form-label small text-muted">Rows count:</label>
+                                                <select id="sel-grid-rows" class="form-select form-select-sm bg-dark text-light border-secondary">
+                                                    <option value="2" selected>repeat(2, 1fr)</option>
+                                                    <option value="3">repeat(3, 1fr)</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-8">
+                                        <div class="sandbox-display-panel d-flex align-items-center justify-content-center">
+                                            <!-- Flexbox container -->
+                                            <div id="sandbox-flexbox-container" class="flexbox-visual-container">
+                                                <div class="flexbox-item">Node A</div>
+                                                <div class="flexbox-item">Node B</div>
+                                                <div class="flexbox-item">Node C</div>
+                                            </div>
+                                            <!-- Grid container -->
+                                            <div id="sandbox-grid-container" class="grid-visual-container d-none" style="grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(2, 1fr);">
+                                                <div class="grid-item">Grid A</div>
+                                                <div class="grid-item">Grid B</div>
+                                                <div class="grid-item">Grid C</div>
+                                                <div class="grid-item">Grid D</div>
+                                                <div class="grid-item">Grid E</div>
+                                                <div class="grid-item">Grid F</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- TAB 4: BOOTSTRAP FRAMEWORK -->
+                    <section class="tab-pane fade" id="pill-bootstrap" role="tabpanel" aria-labelledby="pill-bootstrap-tab">
+                        <div class="dashboard-panel">
+                            <header class="border-bottom border-secondary border-opacity-30 pb-2 mb-3">
+                                <h2 class="h4 text-uppercase font-mono text-neon-cyan m-0">04 // Bootstrap 5 Utility Grid Alignment Matrices & UI Components</h2>
+                                <p class="text-muted small m-0">Accelerating UI engineering speeds using flexible 12-track layout grids and production-ready components.</p>
+                            </header>
+
+                            <!-- Tab 4 Q&A Accordion - Placed at top -->
+                            <section class="qa-matrix" aria-label="Bootstrap Q&A Matrix">
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q1: How does the Bootstrap Grid & Breakpoint scaling mechanics operate?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            The Bootstrap 5 library streamlines front-end design using an extensive utility ecosystem and a 12-column fluid grid built on top of CSS Flexbox. Layout structures split screens into 12 scalable horizontal tracks, letting developers control layout sizes across different display sizes using explicit breakpoint shorthand classes:
+                                            <ul class="mt-2 ps-3 small text-muted">
+                                                <li class="mb-1"><code class="text-light">.col-12</code>: Spans all 12 grid tracks on narrow mobile viewports, wrapping layout items vertically for easy touch navigation.</li>
+                                                <li class="mb-1"><code class="text-light">.col-md-6</code>: Activates on medium tablet viewports, splitting containers into side-by-side components that fill exactly 50% width fields.</li>
+                                                <li class="mb-0"><code class="text-light">.col-xl-9 / .col-xl-3</code>: Optimizes widescreen layouts by splitting content 75% / 25% between primary dashboards and management sidebars.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q2: How does the Bootstrap 12-column grid layout operate mathematically?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Bootstrap divides the page width into 12 virtual columns inside a <code>.row</code> container. Developers assign widths using classes like <code>.col-6</code> (spans 6 of 12 columns, or 50% width) or <code>.col-md-4</code> (spans 4 of 12 columns, or 33.33% width starting at tablet viewports and up).
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q3: Why did Bootstrap 5 drop the jQuery library dependency?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Bootstrap 5 removed jQuery support to improve performance, reduce bundle sizes, and align with modern browser standards. By using native Vanilla JavaScript for all interactive states (modals, dropdowns, tooltips), pages load faster, and integration with modern frameworks (like React or Vue) is simplified.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q4: What are utility classes in Bootstrap, and how do they speed up development?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Utility classes apply single, specific styling declarations (e.g. <code>.d-flex</code> for flex display, <code>.p-3</code> for padding, <code>.text-center</code> for text alignment, <code>.bg-dark</code> for background color). They allow developers to construct layouts directly in the HTML markup without writing custom CSS, ensuring design consistency.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q5: Explain the importance of logical spacing utilities (like ms-auto or pe-3).</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Logical spacing utilities use "start" and "end" instead of "left" and "right" (e.g. <code>ms</code> means margin-start, <code>pe</code> means padding-end). This supports standard left-to-right (LTR) reading directions as well as right-to-left (RTL) scripts, adjusting padding and margins automatically without code overrides.
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Bootstrap 12-Column Grid Simulator -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-2">Dynamic 12-Column Grid Builder Sandbox</h4>
+                                <p class="text-muted small mb-3">Configure layout allocations to visualize how Bootstrap splits horizontal grid coordinates.</p>
+                                
+                                <div class="row align-items-center g-3 mb-3">
+                                    <div class="col-12 col-sm-6 col-md-4">
+                                        <label for="sel-b-cols" class="form-label small text-muted font-mono">Select Column Count Allocation:</label>
+                                        <select id="sel-b-cols" class="form-select form-select-sm bg-darker border-secondary text-light font-mono py-2">
+                                            <option value="2">2 Columns (col-6 each)</option>
+                                            <option value="3" selected>3 Columns (col-4 each)</option>
+                                            <option value="4">4 Columns (col-3 each)</option>
+                                            <option value="6">6 Columns (col-2 each)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12 col-sm-6 col-md-4">
+                                        <button type="button" id="btn-generate-bgrid" class="btn btn-sm btn-info text-uppercase font-mono w-100 py-2 mt-4">GENERATE GRID PREVIEW</button>
+                                    </div>
+                                </div>
+
+                                <div class="p-3 bg-darker rounded border border-secondary border-opacity-60">
+                                    <div id="bootstrap-grid-visual-row" class="row g-2">
+                                        <!-- Dynamically generated columns -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h3 class="h6 text-uppercase font-mono text-light mb-3">Live Framework Component Implementations</h3>
+                                
+                                <div class="row g-3">
+                                    <div class="col-12 col-md-6">
+                                        <div class="p-3 bg-darker border border-secondary border-opacity-60 rounded h-100 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <span class="text-muted small font-mono d-block mb-2">INTEGRATED COMPONENT: Animated Progress Indicators</span>
+                                                <div class="progress bg-dark border border-secondary rounded-0 mb-2" style="height: 18px;">
+                                                    <div id="dashboard-progress" class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: 75%"></div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex justify-content-between align-items-center font-mono mt-2">
+                                                <button id="btn-scale-down" class="btn btn-sm btn-outline-secondary px-3 text-white">-10%</button>
+                                                <span id="lbl-progress-percent" class="small text-neon-cyan fw-bold">TRACKER CAPACITY: 75%</span>
+                                                <button id="btn-scale-up" class="btn btn-sm btn-outline-info px-3">+10%</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="p-3 bg-darker border border-secondary border-opacity-60 rounded h-100 d-flex flex-column justify-content-between">
+                                            <div>
+                                                <span class="text-muted small font-mono d-block mb-1">INTEGRATED COMPONENT: Client Overlay Modal Launchers</span>
+                                                <p class="small text-muted m-0">Trigger clean overlay interfaces cleanly using Bootstrap's native JavaScript components without old libraries like jQuery.</p>
+                                            </div>
+                                            <button type="button" class="btn btn-sm btn-outline-danger font-mono text-uppercase w-100 py-2 mt-3" data-bs-toggle="modal" data-bs-target="#emergencyCoreModal">
+                                                LAUNCH OVERLAY SYSTEM MODAL
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- TAB 5: JAVASCRIPT & SECURITY -->
+                    <section class="tab-pane fade" id="pill-javascript" role="tabpanel" aria-labelledby="pill-javascript-tab">
+                        <div class="dashboard-panel">
+                            <header class="border-bottom border-secondary border-opacity-30 pb-2 mb-3">
+                                <h2 class="h4 text-uppercase font-mono text-neon-cyan m-0">05 // Client-Side Scripting Architecture, Form Validation & Secure DOM Mutations</h2>
+                                <p class="text-muted small m-0">Validating form fields and updating interface readouts using secure coding standards.</p>
+                            </header>
+
+                            <!-- Tab 5 Q&A Accordion - Placed at top -->
+                            <section class="qa-matrix" aria-label="JavaScript Q&A Matrix">
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q1: How do we secure DOM mutations and prevent Cross-Site Scripting (XSS)? (.innerHTML vs .textContent)</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Client-side JavaScript forms the core interactive engine of modern web architectures. Because user inputs can be weaponized by bad actors, web applications must follow strict data safety guidelines to protect against security risks like Cross-Site Scripting (XSS):
+                                            <ul class="mt-2 ps-3 small text-muted">
+                                                <li class="mb-2"><strong class="text-light">The Insecurity of `.innerHTML`:</strong> Modifying page layouts via <code>.innerHTML</code> tells the browser engine to compile incoming data strings directly as live code. If an input field receives an unverified script tag, the platform executes that malicious injection automatically.</li>
+                                                <li class="mb-0"><strong class="text-light">Defensive Remediation via `.textContent`:</strong> To fix this vulnerability, production systems use text-only layout properties like <code>.textContent</code> or <code>.innerText</code>. This explicitly forces the browser engine to escape characters and parse input strings strictly as flat, harmless display text.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q2: What is the Document Object Model (DOM), and how does JS interact with it?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            The Document Object Model (DOM) is a programming interface that represents HTML document structures as a hierarchical tree of objects in memory. JavaScript interacts with this API using methods like <code>document.getElementById</code> or <code>document.querySelector</code> to read, update, insert, or delete nodes dynamically, changing the view without a page reload.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q3: What is Event-Driven Programming in a web client context?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Event-driven programming is a model where code execution is triggered by user interactions (e.g. clicks, form submits, key presses) or browser events (e.g. page loads, resizing). We register listener callbacks using <code>addEventListener</code>, decoupling interface interaction triggers from core application styling logic.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q4: How does the single-threaded JavaScript Event Loop handle asynchronous code?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            JavaScript executes code on a single main thread. Asynchronous processes (like `setTimeout` or `fetch` requests) are delegated to the browser web API environment. When completed, their callbacks are pushed to a Callback Queue. The **Event Loop** monitors the Call Stack; if the stack is empty, it pushes the next callback in queue to the stack for execution.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="qa-card">
+                                    <button class="qa-header" aria-expanded="false">
+                                        <span>Q5: What is the difference between synchronous execution and asynchronous execution?</span>
+                                        <span class="qa-arrow">▶</span>
+                                    </button>
+                                    <div class="qa-body">
+                                        <div class="qa-body-content">
+                                            Synchronous execution runs code blocks line-by-line in order. If a line requires a long calculation or fetch, it blocks the main execution thread, freezing the UI. Asynchronous execution starts a background task and resumes execution of following code lines immediately. When the background task finishes, its callback runs, preventing UI freezes.
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h3 class="h6 font-mono text-uppercase text-light mb-3">Defensive Computing Matrix Engine</h3>
+                                
+                                <div class="row align-items-center g-4">
+                                    <div class="col-12 col-md-6">
+                                        <div id="calculator-alert-box" class="alert alert-danger border-danger font-mono text-danger bg-opacity-10 small mb-3 p-2 rounded fw-bold" style="display: none;" role="alert"></div>
+
+                                        <div class="d-flex flex-column gap-3">
+                                            <div class="form-group">
+                                                <label for="input-mass-val" class="form-label text-muted font-mono small mb-1">Baseline Payload Mass Input Config (kg):</label>
+                                                <input type="number" id="input-mass-val" class="form-control form-control-dark" value="1500">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="input-intensity-val" class="form-label text-muted font-mono small mb-1">Warp Containment Intensity Bounds (0-100%):</label>
+                                                <input type="number" id="input-intensity-val" class="form-control form-control-dark" value="65">
+                                            </div>
+                                            <button type="button" id="btn-execute-computation" class="btn btn-info text-uppercase font-mono py-2 mt-1">
+                                                INITIALIZE CALCULATION LOOP
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-md-6">
+                                        <div class="p-4 bg-darker rounded border border-info border-opacity-20 d-flex flex-column gap-3 h-100">
+                                            <h4 class="h6 text-uppercase text-info font-mono tracking-wider m-0">Validated Computation Readout Targets</h4>
+                                            <div class="border-bottom border-secondary border-opacity-30 pb-2">
+                                                <span class="text-muted font-mono d-block small">Calculated Residual Displacement Mass:</span>
+                                                <strong id="lbl-out-mass" class="display-6 font-mono text-light text-neon-cyan">866.25 kg</strong>
+                                            </div>
+                                            <div>
+                                                <span class="text-muted font-mono d-block small">Suppression Vector Field Efficiency Parameter:</span>
+                                                <strong id="lbl-out-efficiency" class="h4 font-mono text-info">42.3%</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- JavaScript Security Sandbox -->
+                            <div class="card bg-dark border-secondary border-opacity-40 p-4 mb-4">
+                                <h4 class="h6 font-mono text-uppercase text-light mb-2">Interactive Security Sandbox (XSS Vulnerability Demo)</h4>
+                                <p class="text-muted small mb-3">Input potential injection scripts to compare insecure HTML rendering vs. secure text escaping.</p>
+                                
+                                <div class="row align-items-center g-4">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group mb-3">
+                                            <label for="xss-input" class="form-label text-muted font-mono small mb-1">Payload Injection Test String:</label>
+                                            <textarea id="xss-input" rows="3" class="form-control form-control-dark" placeholder="e.g. <strong class='text-neon-cyan'>Safe Bold</strong> or <img src='x' onerror='alert(&quot;XSS Attack!&quot;)'>"></textarea>
+                                        </div>
+                                        <div class="d-flex flex-column flex-sm-row gap-2">
+                                            <button type="button" id="btn-inject-insecure" class="btn btn-sm btn-outline-danger font-mono text-uppercase flex-grow-1">INSECURE innerHTML</button>
+                                            <button type="button" id="btn-inject-secure" class="btn btn-sm btn-info font-mono text-uppercase flex-grow-1">SECURE textContent</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="p-3 bg-darker rounded border border-secondary border-opacity-60 h-100">
+                                            <span class="text-muted font-mono d-block small mb-2">RENDERED OUTPUT CONTAINER:</span>
+                                            <div id="xss-output-display" class="p-2 border border-secondary border-opacity-30 rounded min-h-60 font-mono small text-light bg-dark">
+                                                Awaiting injection execution...
+                                            </div>
+                                            <span class="text-muted font-mono d-block small mt-2">PARSED HTML TREE STATE:</span>
+                                            <code id="xss-parsed-code" class="text-muted small text-break d-block"></code>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+            <aside class="col-12 col-xl-3" aria-labelledby="sidebar-title">
+                <div class="p-4 bg-darker rounded border border-secondary h-100 d-flex flex-column gap-3 shadow-lg">
+                    <h2 id="sidebar-title" class="h6 text-uppercase text-light font-mono tracking-wider m-0 border-bottom border-secondary border-opacity-30 pb-2">ePortfolio Status Hub</h2>
+                    
+                    <div class="d-flex flex-column gap-3 font-mono small">
+                        <div>
+                            <span class="text-muted d-block small">Accessibility Validation Tree:</span>
+                            <span class="text-neon-green fw-bold">✓ WCAG 2.1 LANDMARK COMPLIANT</span>
+                        </div>
+                        <div>
+                            <span class="text-muted d-block small">Grid Framework Engine:</span>
+                            <span class="text-neon-cyan fw-bold">✓ BOOTSTRAP 5 FLUID COLUMN MATRIX</span>
+                        </div>
+                        <div>
+                            <span class="text-muted d-block small">DOM Script Injection Safety:</span>
+                            <span class="text-gold fw-bold">✓ SECURE textContent PROTECTION ACTIVE</span>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-info border-info border-opacity-25 bg-opacity-5 small font-mono m-0 p-3 mt-auto" role="alert">
+                        <strong class="text-info d-block mb-1">📋 ACADEMIC COMPLIANCE NOTE:</strong>
+                        <p class="text-muted m-0 small lh-base">This console compiles real-time proofs across all 5 rubric categories required inside an accessible, highly responsive web application portfolio layout template.</p>
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </main>
+
+    <footer class="global-footer mt-5 py-4 text-center border-top border-secondary border-opacity-30">
+        <div class="container-fluid">
+            <p class="m-0 text-light font-mono small fw-semibold tracking-wide">
+                Created by Bishal Bhattarai as assignment of full stack development 2026
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Core Modal -->
+    <div class="modal fade" id="emergencyCoreModal" tabindex="-1" aria-labelledby="modal-title-header" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark border border-danger text-light rounded-3">
+                <div class="modal-header border-danger pb-2">
+                    <h5 id="modal-title-header" class="modal-title text-danger text-uppercase font-mono fw-bold">⚠️ Functional UI Modal Overlay System Verified</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close UI Layer"></button>
+                </div>
+                <div class="modal-body py-3">
+                    <p class="font-mono small text-muted mb-2">VERIFICATION SYSTEM LOG IDENTITY MATRIX</p>
+                    <p class="small text-light mb-0">This modal layout proves clean, native integration of Bootstrap 5's JavaScript layer triggering completely from the bundle file, with zero reliance on old third-party packages like jQuery.</p>
+                </div>
+                <div class="modal-footer border-secondary pt-2">
+                    <button type="button" class="btn btn-sm btn-outline-secondary font-mono text-white px-3" data-bs-dismiss="modal">Close Overlay Matrix</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Security Warning Modal -->
+    <div class="modal fade" id="xssWarningModal" tabindex="-1" aria-labelledby="xss-modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark border border-danger text-light rounded-3">
+                <div class="modal-header border-danger pb-2">
+                    <h5 id="xss-modal-title" class="modal-title text-danger text-uppercase font-mono fw-bold">⚠️ Cyber Security Alert: XSS Threat Intercepted</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close UI Layer"></button>
+                </div>
+                <div class="modal-body py-3">
+                    <p class="font-mono small text-muted mb-2">THREAT INTELLIGENCE ANALYSIS REPORT</p>
+                    <p class="small text-light mb-2">
+                        You clicked <strong>INSECURE innerHTML</strong>. In a live application, compiling raw input strings directly via <code>.innerHTML</code> enables Cross-Site Scripting (XSS). If a malicious script tag (e.g. <code>&lt;script&gt;</code> or <code>onerror</code> triggers) is entered, it executes inside the user's session, potentially stealing session tokens or cookies.
+                    </p>
+                    <p class="small text-warning mb-0">
+                        To demonstrate the difference, we have temporarily sanitized your script tags but kept the HTML nodes active. Notice how the HTML styling is active, which proves the browser parsed and executed the markup!
+                    </p>
+                </div>
+                <div class="modal-footer border-secondary pt-2">
+                    <button type="button" id="btn-proceed-insecure" class="btn btn-sm btn-outline-danger font-mono px-3">Proceed with Demo Injection</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary font-mono text-white px-3" data-bs-dismiss="modal">Cancel Injection</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Linked External Logic Handler Script Component -->
+    <script src="script.js"></script>
+</body>
+
+</html>
